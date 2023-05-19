@@ -334,8 +334,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a587c72b0c1814ab8ebdb94d77d233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  jumpForce: 0
+  moveSpeed: 5
+  jumpForce: 12
+  gravityScale: 0
+  characterController: {fileID: 924487087}
+--- !u!143 &924487087
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924487084}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 4
+  m_Radius: 1
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 2.42, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
